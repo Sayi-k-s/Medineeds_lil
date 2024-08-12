@@ -505,7 +505,7 @@ class _NewTripScreenState extends State<NewTripScreen> {
                         }
                       },
                       style: ElevatedButton.styleFrom(
-                        primary: buttonColor,
+                        backgroundColor: buttonColor,
                       ),
                       icon: const Icon(
                         Icons.directions_car,

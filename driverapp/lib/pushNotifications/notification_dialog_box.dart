@@ -139,7 +139,7 @@ class _NotificationDialogBoxState extends State<NotificationDialogBox> {
                 children: [
                   ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      primary: kPrimaryColor,
+                      backgroundColor: kPrimaryColor,
                     ),
                     onPressed: () {
                       audioPlayer.pause();
@@ -187,7 +187,7 @@ class _NotificationDialogBoxState extends State<NotificationDialogBox> {
                   const SizedBox(width: 25.0),
                   ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.green,
+                      backgroundColor: Colors.green,
                     ),
                     onPressed: () {
                       audioPlayer.pause();

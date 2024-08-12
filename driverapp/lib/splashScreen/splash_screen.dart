@@ -44,12 +44,12 @@ class _MySplashScreenState extends State<MySplashScreen> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Image.asset("images/logo1.png"),
+              Image.asset("images/logobgremoved.png"),
               const SizedBox(
                 height: 10,
               ),
               const Text(
-                "1 Min Ambulance",
+                "Medi Needs",
                 style: TextStyle(
                   fontSize: 25,
                   color: kPrimaryColor,

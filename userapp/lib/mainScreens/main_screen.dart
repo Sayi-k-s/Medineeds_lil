@@ -621,7 +621,7 @@ class _MainScreenState extends State<MainScreen> {
                           }
                         },
                         style: ElevatedButton.styleFrom(
-                            primary: kPrimaryColor,
+                            backgroundColor: kPrimaryColor,
                             textStyle: const TextStyle(
                                 fontSize: 16, fontWeight: FontWeight.bold)),
                       ),
@@ -768,7 +768,7 @@ class _MainScreenState extends State<MainScreen> {
                       child: ElevatedButton.icon(
                         onPressed: () {},
                         style: ElevatedButton.styleFrom(
-                          primary: kPrimaryColor,
+                           backgroundColor: kPrimaryColor,
                         ),
                         icon: const Icon(
                           Icons.phone_android,

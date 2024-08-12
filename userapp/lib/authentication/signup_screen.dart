@@ -207,7 +207,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   //     MaterialPageRoute(builder: (c) => CarInfoScreen()));
                 },
                 style: ElevatedButton.styleFrom(
-                  primary: kPrimaryColor,
+                  backgroundColor: kPrimaryColor,
                 ),
                 child: const Text(
                   "Sign Up",

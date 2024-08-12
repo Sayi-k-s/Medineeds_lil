@@ -84,7 +84,7 @@ class _FareAmountCollectionDialogState
               padding: const EdgeInsets.all(18.0),
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  primary: kPrimaryColor,
+                  backgroundColor: kPrimaryColor,
                 ),
                 onPressed: () {
                   Future.delayed(const Duration(milliseconds: 2000), () {
